@@ -1,0 +1,13 @@
+# Keep tracked text reproducible across Windows and POSIX checkouts.
+* text=auto eol=lf
+
+# Authored repository text uses LF.
+*.md text eol=lf
+*.py text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.json text eol=lf
+
+# Preserve all extracted Skill bytes, including the existing mixed-EOL header.
+# The release manifest hashes raw bytes; Git must not normalize this subtree.
+skills/** -text

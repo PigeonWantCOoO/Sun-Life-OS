@@ -1,0 +1,41 @@
+# Personal records and generated exports
+personal-life-data/
+exports/
+
+# Local agent state and project-only installations
+.codex/
+.superpowers/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.env/
+
+# Local environment files (keep the documented template)
+.env*
+!.env.example
+
+# Test and coverage output
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+htmlcov/
+test-output/
+tmp/
+temp/
+
+# Editors and operating systems
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+Desktop.ini
